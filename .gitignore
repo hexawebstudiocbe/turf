@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Builds & Outputs
+dist/
+build/
+
+# Local Database & Cache
+data/
+backend/data/
+*.wt
+*.lock
+*.turtle
+diagnostic.data/
+journal/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Logs & System
+*.log
+.DS_Store
+coverage/
+.system_generated/
